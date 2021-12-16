@@ -16,7 +16,7 @@ def totalTax(taxDeterminationAmount, month):
         result = total * 0.3 - 52920
     elif 660000 < total <= 960000:
         result = total * 0.35 - 85920
-    elif 181920 < total:
+    elif 960000 < total:
         result = total * 0.45 - 181920
     return result
 
